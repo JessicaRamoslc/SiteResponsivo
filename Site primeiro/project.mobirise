@@ -1,0 +1,305 @@
+{
+  "settings": {
+    "name": "Site-10-01_1846",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.4",
+    "siteFonts": [],
+    "uniqCompNum": 7,
+    "versionPublish": "4.8.4"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#000000",
+            "hamburgerColor": "#a8d0ea"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"><p>Inicial&nbsp;&nbsp;</p></a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Sobre</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contato</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PROGRAMADORA WEB</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#a8d0ea"
+            }
+          }
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "right",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "JESSICA LANE",
+          "text": "Programadora Web - Full-Stack",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Leia mais</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-1",
+          "_styles": {
+            "H1": {
+              "color": "#d9534f"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "<b>Design</b>",
+          "caption1": "Seu site com design moderno e atualizado!",
+          "title2": "<b>Responsividade</b>",
+          "caption2": "Para seus cliente acessarem de qualquer lugar em qualquer dispositivo!&nbsp;",
+          "title3": "<b>Orçamento gratuito</b>",
+          "caption3": "Orçamento rápido e 100% gratuito",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-2",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false
+          },
+          "text": "Compartilhe esta página!",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-3"
+        },
+        {
+          "_params": {
+            "firstType": "bg-success",
+            "secondType": "bg-warning",
+            "thirdType": "bg-danger",
+            "fourthType": "bg-primary",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1246.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Básico",
+          "title2": "Essencial&nbsp;<br>(Recomendado)",
+          "title3": "Premium",
+          "title4": "Full Premium",
+          "currency1": "R$",
+          "currency2": "R$",
+          "currency3": "R$",
+          "currency4": "R$",
+          "price1": "600",
+          "price2": "900",
+          "price3": "1200",
+          "price4": "2000",
+          "period1": "&nbsp;à vista",
+          "period2": "parcelado <br>em até 2x",
+          "period3": "parcelado <br>em até 3x",
+          "period4": "parcelado <br>em até 4x",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Código completo do seu site pronto para colocar no ar!</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Site hospedado +</b></li><li class=\"list-group-item\"><b>3 meses gratuitos de atualizações +</b></li><li class=\"list-group-item\"><b>Consultoria por 1 mês para melhor rendimento do seu site!</b></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Seu site no ar +</b></li><li class=\"list-group-item\"><b>3 meses gratuitos de atualizações +</b></li><li class=\"list-group-item\"><b>Consultoria e Google Analytics para melhor rendimento do seu site!&nbsp;</b></li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Seu site no ar &nbsp;+</b></li><li class=\"list-group-item\"><b>Front-End e Back End </b></li><li class=\"list-group-item\"><b>Monitoramento de 24h/7 dias por semana. +</b></li><li class=\"list-group-item\"><b>Consultoria e atualizações gratuitas durante 4 meses!</b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Quero esse!</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Quero esse!</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Quero esse!</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Quero esse!</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-6"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Orçamentos",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envie</a>",
+          "form": {
+            "action": "laneramos@gmail.com",
+            "alerts": {
+              "success": "Fica tranquilx! Te retorno em breve! :)"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefone*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Dúvidas e orçamento, digite aqui :)"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-4"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#26272c",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 Jessica Lane.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "14px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

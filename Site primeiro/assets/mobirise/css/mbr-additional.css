@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic);
+
+#menu-0 .navbar-toggler {
+  color: #a8d0ea;
+}
+#header2-1 H1 {
+  color: #d9534f;
+}
+#content4-2 P {
+  text-align: center;
+}
+#footer1-5 P {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Playfair Display', sans-serif;
+}
